@@ -44,7 +44,7 @@ int main()
     cout << "Default: " << x << endl;
 
     // setprecision without fixed -> total digits
-    cout << "setprecision(5): " << setprecision(5) << x << endl;
+    cout << "setprecision(5): " << setprecision(4) << x << endl;
     cout << "setprecision(9): " << setprecision(9) << x << endl;
 
     // fixed + setprecision -> digits after decimal point
@@ -58,7 +58,7 @@ int main()
 
     // Default: prints 1 or 0
     cout << "Default bool: " << flag << endl;
-    flag = false;
+    flag = true;
     cout << "Default bool: " << flag << endl;
 
     // boolalpha prints true/false
